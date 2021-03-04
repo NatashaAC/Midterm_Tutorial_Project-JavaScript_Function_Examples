@@ -1,3 +1,5 @@
+/* Try out each function to see them in action */
+
 // Global Variable
 var numToAdd = 5;
 
@@ -14,6 +16,18 @@ addition(numToAdd);
 // 5 + 10
 // Result 15
 
+
+// Function that uses a parameter
+function subtraction(number) {
+
+    // Code to execute
+	console.log(number - 10);
+    
+}
+subtraction(55);
+// Result 45
+
+
 // Function that uses private variables and no parameter
 function coolAnimals() {
 
@@ -28,8 +42,11 @@ function coolAnimals() {
 coolAnimals();
 // Result Some cool animals are Cheetah and Wolf
 
+
 // Function that uses two parameters
 function favouriteAnimal(name, animal) {
     alert(name + "'s favourite animal is a " + animal);
 }
 favouriteAnimal('Luca', 'Dog');
+// Result Luca's favourite animal is a Dog
+
